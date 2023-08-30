@@ -90,4 +90,10 @@ function ipn(){
     }
 }
 
+public function table()
+{
+$data['payment'] = $this->db->get('payment')->result_array();
+$this->load->view('Paypal/paymentTable', $data);
+}	
+
 }
