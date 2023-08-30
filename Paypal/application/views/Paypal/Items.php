@@ -21,6 +21,7 @@
         <input type="submit" value="Buy Now">
         </div>
     </div>
+    <a href="<?php echo base_url().'Paypal/table'; ?>" style="text-align: right; text-decoration:none">Press to See the Transactions List</a>
 </form>
 </body>
 </html>
